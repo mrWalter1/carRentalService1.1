@@ -9,7 +9,7 @@ DELETE https://car-rental-service.herokuapp.com/cars/1
 POST https://car-rental-service.herokuapp.com/cars
 Content-Type:application/json
 {
-"id":1,
+"id":5,
 "firm_id":2,
 "pricePerDay":60000,
 "yearOfManufacture":1900,
