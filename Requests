@@ -6,3 +6,24 @@ GET https://car-rental-service.herokuapp.com/cars/carRentalService/3
 ###
 DELETE https://car-rental-service.herokuapp.com/cars/1
 ###
+POST https://car-rental-service.herokuapp.com/cars
+Content-Type:application/json
+{
+"id":1,
+"firm_id":2,
+"pricePerDay":60000,
+"yearOfManufacture":1900,
+"model":"Lada",
+"color":"Rainbow"
+}
+###
+POST https://car-rental-service.herokuapp.com/cars/update
+Content-Type:application/json
+{
+"id":3,
+"firm_id":2,
+"pricePerDay":6000,
+"yearOfManufacture":2050,
+"model":"Tesla",
+"color":"White"
+}
