@@ -1,0 +1,8 @@
+GET https://car-rental-service.herokuapp.com/cars
+###
+GET https://car-rental-service.herokuapp.com/cars/1
+###
+GET https://car-rental-service.herokuapp.com/cars/carRentalService/3
+###
+DELETE https://car-rental-service.herokuapp.com/cars/1
+###
